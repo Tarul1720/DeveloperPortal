@@ -1,0 +1,12 @@
+@use 'sass:math';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500&display=swap');
+@import 'partials/variable';
+@import '../js/bootstrap/scss/bootstrap';
+@import 'partials/style';
+@import 'partials/jforum';
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/functional-header-footer';
+@import 'partials/index';
+@import 'partials/faq';
+@import 'partials/api';

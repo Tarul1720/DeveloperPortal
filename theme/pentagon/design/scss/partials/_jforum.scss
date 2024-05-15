@@ -1,0 +1,226 @@
+/*===== J-forum Latest style section =====*/
+
+//common Jforum-bootstrap5 ID
+#jforum-bootstrap5 {
+    //common scss
+
+    .gensmall {
+        font-size: 0.75em;
+    }
+
+    #forum-show {
+        .bg_yellow {
+            background-color: $yellow-color !important;
+        }
+
+    }
+
+    #user-agreement {
+        .card-body {
+            p:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        @media (max-width: 544.98px) {
+            button:last-child {
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    @media (min-width: 992px) {
+        .forumList~.banner {
+            margin-top: 1rem;
+        }
+    }
+
+    #forum-show .banner,
+    #post-show .banner {
+        margin-top: 1rem;
+    }
+
+    #post-show {
+        .user_profile {
+            @media (min-width: 576px) and (max-width: 767.98px) {
+                .ms-md-1 {
+                    margin-left: .25rem
+                }
+
+                .d-flex.align-items-center a {
+                    margin-left: .25rem
+                }
+            }
+        }
+    }
+
+    .post_form {
+        .colorFonts {
+            @media (min-width: 320px) and (max-width: 408.98px) {
+                display: table-caption;
+
+                .small {
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+        #attachmentFields, #edit_attach {
+            @media (min-width: 320px) and (max-width: 465.98px) {
+                input[type=text]{
+                    width: inherit;
+                }
+            }
+        }
+
+        @media (max-width: 1176.98px) {
+            .bbCodes {
+                input {
+                    margin-bottom: 1rem;
+                }
+
+                &:last-child {
+                    margin-bottom: -22px;
+                }
+            }
+
+            .mb-3.bbCodes {
+                margin-bottom: 0 !important;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1167.98px) {
+            input[name="helpbox"] {
+                margin-top: 0 !important;
+            }
+        }
+
+    }
+
+    .newMessage,
+    #forum-show {
+        .alertTypes {
+            @media (max-width: 767.98px) {
+                .d-flex.align-items-center {
+                    justify-content: center;
+                    margin-bottom: 0.5rem;
+                }
+
+                .border-style-solid.my-2 {
+                    margin-top: 0 !important;
+                    margin-bottom: 0 !important;
+                }
+
+                .gensmall.mt-2 {
+                    margin-top: 0 !important;
+                }
+
+                .fa-angle-double-right {
+                    margin-top: 0 !important;
+                }
+            }
+        }
+    }
+
+    // post forum scss
+    .text-decoration-underline {
+        text-decoration: $text-decoration-underline;
+    }
+
+    .text-decoration-line-through {
+        text-decoration: $text-decoration-line-through;
+    }
+
+    // read_message page scss
+    .min-height-130 {
+        min-height: $min-height-130;
+    }
+
+    // common icon scss
+    .border-style-solid {
+        border-style: solid;
+    }
+
+    // common scss for mobile view
+    .table-inverse {
+        border: 1px solid #ccc;
+
+        tr:not(:first-child) {
+            border: 1px solid #ccc;
+        }
+    }
+
+    .table-inverse tr td {
+        width: $width-auto !important;
+        text-align: center;
+        padding: 0.75rem;
+
+        span {
+            display: inline-table;
+        }
+    }
+
+    .table-inverse tr th {
+        text-align: left !important;
+        word-break: normal;
+        padding: 0.75rem;
+    }
+
+    #attachmentFields,
+    #edit_attach {
+        label[for="description"] {
+            margin-top: -24px;
+        }
+    }
+
+    @media (max-width: 575.98px) {
+        .user-profile {
+            .card-body {
+                padding-left: 0.5rem;
+                padding-right: 0.5rem;
+            }
+        }
+    }
+
+
+    @media (min-width: 320px) and (max-width: 735.98px) {
+        .user-profile {
+            .stopforumSpam {
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    @media (max-width: 575.98px) {
+        .user-profile {
+            .emailTo {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 386.98px) {
+        .postbody {
+            max-width: 480px;
+            overflow-x: $width-auto;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .postbody {
+            max-width: 380px;
+        }
+    }
+
+    @media only screen and (max-width: 400px) {
+        .postbody {
+            max-width: 320px;
+        }
+    }
+
+    @media only screen and (max-width: 330px) {
+        .postbody {
+            max-width: 255px;
+        }
+    }
+}

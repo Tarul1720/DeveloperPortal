@@ -1,0 +1,88 @@
+$font-family-base: 'Inter', sans-serif;
+
+/*Bootstrap theme colors*/
+$primary: #9b1e26;
+$success: #198754;
+$danger: #dc3545;
+$warning: #ffc107;
+$light: #f4d8cf;
+$dark: #686873;
+$white: #ffffff;
+
+$light-color: #f4f4f4;
+$light-gradient: linear-gradient(256.81deg, #FCECEC 0%, #FFF8F7 100%);
+$dark-gradient: linear-gradient(to right, #353535, black);
+$color-nav-link: #646464;
+$danger-hover-background: #c82333;
+$danger-hover-border-color: #bd2130;
+$google-btn: #4285f4;
+$secondary-color: #284c61;
+$info-color: #417488;
+$card-decorator-border-color: #c5c7c1;
+$wizard-color: #9d382c;
+$gray-color: #939292;
+$border-color: #ccc;
+$gray-background-color: #e6e6e6;
+$primary-opacity-background: #e6f1f7;
+$color-footer-background: #efefef;
+$light-background-color: #f1f1f1;
+$color-box-shadow: #ebebeb;
+$light-gray-background-color: #f6f6f6;
+$dark-gray-background-color: #131313;
+$footer-hover-color: #cbd3da;
+$dark-font-color: #09080d;
+$badge-background-color: #ff0000;
+$danger-dark-border-color: #c00000;
+
+$box-shadow: 0px 4px 8px rgba(37, 36, 59, 0.05);
+$api-border: 1px solid #DBDBDE;
+$api-light-gray: #f6f6f6;
+
+$navbar-dark-toggler-border-color: transparent;
+$navbar-dark-color: #da3442;
+$navbar-dark-hover-color: #9b1e26;
+$navbar-dark-active-color: white;
+$nav-link-font-size: 1.0625em;
+
+$btn-border-radius-sm: 50px;
+$btn-padding-x-sm: 1rem;
+$btn-font-weight: 600;
+
+$badge-font-size: 0.45em;
+
+$main-margin: 5.25rem;
+$dropdown-margin: 18px 0 0;
+$btn-border-radius: 50px;
+$card-header-border: 2px solid rgba(0, 0, 0, 0.125);
+$padding-x-axis: 0rem 1.25rem;
+
+$lead-font-size: 1.125rem;
+$input-focus-box-shadow: none;
+$btn-focus-box-shadow: none;
+$btn-active-box-shadow: none;
+
+//Change log variable (use in functional pages)
+$dpLogCreation-color: #d1e6fc;
+$dpLogClone-color: #fefed1;
+$dpLogPublicComment-color: #f0b4b4;
+$dpLogPrivateComment-color: #e5d5fc;
+$dpLogStatus-color: #beedb7;
+$dpLogFields-color: #f1d563;
+$dpTroubleTicketPrivateWebComment-color: #58978c;
+$dpTroubleTicketFieldChanged-color: #7b6fa6;
+$http-text-color: #85d0fc;
+$gray-dark-color: #666666;
+
+//jforum-bootstrap4 (use in jforum)
+$yellow-color: #ffeea7;
+$color-dark: #000000;
+$icon-width-19px: 19px;
+$icon-height-18px: 18px;
+$display-inline: inline;
+$font-weight-bold: bold;
+$text-decoration-underline: underline;
+$text-decoration-line-through: line-through;
+$min-height-130: 130px;
+$width-auto: auto;
+
+$modal-md: 600px;

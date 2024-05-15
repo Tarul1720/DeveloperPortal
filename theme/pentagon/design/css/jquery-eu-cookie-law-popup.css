@@ -1,0 +1,56 @@
+.eupopup-container {
+	background-color: rgb(255, 255, 255);
+	padding: 13px 10px;
+	line-height: 1.2em;
+	text-align: center;
+	display: none;
+	z-index: 9999999;
+	border-top: 4px solid #52c8fa;
+	color: #000;
+}
+
+.eupopup-closebutton:hover,
+.eupopup-closebutton:active {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.eupopup-container-top,
+.eupopup-container-fixedtop {
+	position: absolute;
+	top: 0; left: 0; right: 0;
+}
+
+.eupopup-container-fixedtop {
+	position: fixed;
+}
+
+.eupopup-container-bottom {
+	position: fixed;
+	bottom: 0; left: 0; right: 0;
+}
+
+.eupopup-container-bottomleft {
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+	width: 300px;
+}
+
+.eupopup-container-bottomright {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 300px;
+}
+.eupopup-body-text-div{
+	width: 95%;
+	font-size: 13px;
+}
+.eupopup-body-close-div{
+	width: 5%;
+}
+.eupopup-close-icon{
+	width: 1.25rem;
+	cursor: pointer;
+}

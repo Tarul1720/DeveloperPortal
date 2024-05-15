@@ -1,0 +1,44 @@
+html {
+	scroll-behavior: smooth;
+}
+
+html,
+body {
+	width: 100vw;
+	min-height: 100vh;
+}
+
+#main-section{
+  background: $light-gray-background-color;
+
+  h1{
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1.2em;
+  }
+
+}
+
+/*Desktop only*/
+@media (min-width: 992px) {
+  #spa-wrapper {
+    background: $light-gray-background-color;
+    display: flex;
+    #catalog{
+      display: flex;
+      flex: 1 1 auto !important;
+      & > main{
+        display: flex;
+        & > .row{
+          flex: 1;
+        }
+      }
+    }
+    .solution-card-container{
+      flex: 1 1 auto;
+    }
+  }
+  #dashboard{
+    flex: 1 1 auto;
+  }
+}

@@ -1,0 +1,179 @@
+/*===== API custom scss =====*/
+#api-catalog-page {
+	.sidebar {
+		box-shadow: $box-shadow;
+		.sidebar-sticky {
+			.accordion {
+				margin-bottom: 1em;
+				box-shadow: $box-shadow;
+				.accordion-item {
+					border: none;
+					h2 {
+						padding: 0 1.25rem;
+						/* 1st level accordion buttons*/
+						.accordion-button {
+							font-size: 0.875rem;
+							padding: 1rem 0;
+							font-weight: 500;
+
+							&:not(.collapsed) {
+								border-bottom: $api-border;
+								color: $body-color;
+							}
+						}
+					}
+					h3 {
+						/* 2nd level accordion buttons*/
+						.accordion-button {
+							font-size: 0.75rem;
+						}
+					}
+					.accordion-body {
+						font-size: 0.75rem;
+					}
+					/* All accordion buttons*/
+					.accordion-button {
+						text-decoration: none;
+						color: $primary;
+						&:not(.collapsed) {
+							box-shadow: none;
+							background-color: inherit;
+						}
+						&::after {
+							width: 1em;
+							height: 1em;
+							background-size: 1em;
+						}
+					}
+					.active {
+						color: $body-color !important;
+						font-weight: 700 !important;
+					}
+				}
+			}
+		}
+	}
+
+	h1 {
+		font-size: 1.625em;
+	}
+
+	.card {
+		border: none;
+		box-shadow: $box-shadow;
+	}
+
+	.api-card {
+		header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 1em;
+			h2 {
+				font-size: 1.3125em;
+				margin: 0;
+			}
+			i {
+				font-size: 1.5em;
+			}
+		}
+	}
+
+	.api-detail {
+		.nav-tabs {
+			border: none;
+			.nav-link {
+				border: none;
+				&.active {
+					border-bottom: 2px solid $primary;
+				}
+			}
+		}
+		h3 {
+			font-size: 0.875em;
+			font-weight: 600;
+		}
+		div.code {
+			white-space: pre;
+		}
+		table {
+			font-size: 0.875em;
+			td {
+				padding: 1em;
+				p {
+					margin: 0;
+				}
+			}
+			&.detail-table {
+				tr {
+					border-color: $white;
+					border-width: 0;
+					border-bottom-width: 4px;
+					td,
+					th {
+						padding: 0.2em 0.5rem;
+					}
+					td[colspan] {
+						font-weight: 700;
+					}
+				}
+			}
+		}
+		.codegen {
+      /*testing*/
+      display: flex;
+      flex-direction: column;
+      flex: 1 1 auto;
+      .tab-content, 
+      .tab-pane,
+      pre,
+      code{
+        height: 100%;
+      }
+      /*testing*/
+			.nav-link {
+				color: $navbar-dark-color;
+				&.active {
+					background-color: inherit;
+					color: $white;
+				}
+			}
+		}
+	}
+
+	.try-it {
+		height: 30rem;
+	}
+
+	.try-it-res {
+		display: none;
+
+		&.show {
+			display: block;
+		}
+	}
+
+	.subscribe-btn {
+		display: inline-block;
+
+		&.hide {
+			display: none;
+		}
+	}
+
+	.existing-app,
+	.new-app {
+		display: none;
+
+		&.show {
+			display: block;
+		}
+	}
+
+	@media (max-width: 767.98px) {
+		.sidebar {
+			top: 5rem;
+		}
+	}
+
+}
